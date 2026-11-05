@@ -5,10 +5,10 @@ date_default_timezone_set('Asia/Jakarta');
 //**************************start koneksi ***************************//
 
 //set koneksi ke server sesuai host, user, password dan database
-$server="192.168.0.2";
-$user="sik_juni2024";
-$pass="L47cDXjifHpe65AC";
-$database="sik_juni2024";
+$server="localhost";
+$user="sik";
+$pass="";
+$database="sik";
 
 //koneksikan ke server
 $conect=mysqli_connect($server,$user,$pass,$database) or die('Error Connection Network');
